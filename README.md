@@ -14,6 +14,9 @@ The script can be executed as follows, with the argument after the filename refe
 ./Migrate-MoqToNSubstitute.ps1 C:/<path_to_your_tests_project>
 ```
 
+> ⚠️ **Warning**
+> Please back up your files before running the script and ideally, make sure your project is using source control so that you can revert the changes if required. The script will overwrite your files - there is no undo button!
+
 The script can also be executed without specifying a directory path, in which case it will perform replacements in the current script directory.
 
 ```powershell
